@@ -1,0 +1,51 @@
+.starContainer{
+    display: flex;
+}
+
+.star{
+    /* border: 2px solid red; */
+    /* color: white; */
+    /* box-shadow: 10px; */
+    cursor: pointer;
+    font-size: 200%;
+}
+
+.selected{
+    color:gold;
+    
+    /* background-color: gold; */
+}
+
+.likeConatainer{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.like_btn{
+    font-size: 200%;
+    cursor: pointer;
+}
+
+.selected_btn_like{
+    color: green;
+}
+
+.selected_btn_dislike{
+    color: red;
+}
+
+.division{
+    margin: 20px;
+}
+
+.heading{
+    font-size:20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.outerDiv{
+    width: 400px;
+    margin: auto;
+}
